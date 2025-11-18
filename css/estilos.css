@@ -1,21 +1,26 @@
+/* Fondo y tipografía */
 body {
     font-family: Arial, sans-serif;
-    background-color: #f8f0ff;
+    background-color: #f8f0ff;  /* fondo lila pastel */
     color: #333;
     text-align: center;
     padding: 50px;
+    margin: 0;
 }
 
-h1 {
+/* Encabezado */
+header h1 {
     color: #b44cff;
     font-size: 3em;
+    margin-bottom: 10px;
 }
 
-p {
+header p {
     color: #5c2a86;
     font-size: 1.2em;
 }
 
+/* Botón */
 .boton {
     display: inline-block;
     padding: 10px 20px;
@@ -30,4 +35,11 @@ p {
 
 .boton:hover {
     background-color: #ff4fa3;
+}
+
+/* Pie de página */
+footer p {
+    color: #5c2a86;
+    margin-top: 50px;
+    font-size: 0.9em;
 }
