@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Página Aesthetic</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <header>
+        <h1 class="titulo">JayLu's Creations</h1>
+        <nav>
+            <a href="#inicio">Inicio</a>
+            <a href="#sobre">Sobre mí</a>
+            <a href="#productos">Productos</a>
+            <a href="#contacto">Contacto</a>
+        </nav>
+    </header>
+
+    <section id="inicio" class="hero">
+        <h2>Crea tus sueños en arte ✨</h2>
+        <p>Diseños personalizados, aesthetic y únicos.</p>
+        <button onclick="scrollToSection('productos')">Ver Productos</button>
+    </section>
+
+    <section id="sobre" class="sobre">
+        <h2>Sobre mí</h2>
+        <p>Soy Johanna, diseñadora de productos personalizados hechos con amor.</p>
+    </section>
+
+    <section id="productos" class="productos">
+        <h2>Productos</h2>
+
+        <div class="grid">
+            <div class="card">
+                <h3>Agendas</h3>
+                <p>Aesthetic, personalizadas y hermosas.</p>
+            </div>
+            <div class="card">
+                <h3>Libretas</h3>
+                <p>Diseños únicos estilo cute y pastel.</p>
+            </div>
+            <div class="card">
+                <h3>Vasos & Tazas</h3>
+                <p>Personalizadas a tu gusto.</p>
+            </div>
+            <div class="card">
+                <h3>Worry Stones</h3>
+                <p>Sanación, calma y estilo.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="contacto" class="contacto">
+        <h2>Contacto</h2>
+        <p>Escríbeme para pedidos personalizados:</p>
+        <a class="boton-wsp" href="https://wa.me/1XXXXXXXXXX" target="_blank">
+            WhatsApp 📲
+        </a>
+    </section>
+
+    <footer>
+        <p>© 2025 JayLu's Creations</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

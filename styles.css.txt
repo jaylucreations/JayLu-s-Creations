@@ -1,0 +1,78 @@
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    background: #fdf1ff;
+    color: #5a3876;
+}
+
+header {
+    background: #ffeffa;
+    padding: 20px;
+    text-align: center;
+    border-bottom: 2px solid #e2a5ff;
+}
+
+nav a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: #a75cff;
+    font-weight: 600;
+}
+
+.hero {
+    padding: 80px 20px;
+    text-align: center;
+    background: linear-gradient(135deg, #ffb6f9, #d6a8ff);
+    color: white;
+}
+
+.hero button {
+    margin-top: 20px;
+    padding: 12px 25px;
+    border: none;
+    border-radius: 25px;
+    background: gold;
+    color: #5a3876;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+    padding: 20px;
+}
+
+.card {
+    background: white;
+    border-radius: 20px;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 0 15px rgba(0,0,0,0.1);
+    border: 2px solid #e2a5ff;
+}
+
+.contacto {
+    text-align: center;
+    padding: 40px;
+}
+
+.boton-wsp {
+    display: inline-block;
+    padding: 15px 30px;
+    background: #ff9ee0;
+    border-radius: 30px;
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    margin-top: 20px;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background: #ffe8fa;
+    margin-top: 40px;
+    border-top: 2px solid #e2a5ff;
+}
